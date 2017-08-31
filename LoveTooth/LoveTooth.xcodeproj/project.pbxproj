@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9460EA391F57E3D800982CD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9460EA381F57E3D800982CD1 /* main.m */; };
+		9460EA3C1F57E3D800982CD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9460EA3B1F57E3D800982CD1 /* AppDelegate.m */; };
+		9460EA3F1F57E3D800982CD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9460EA3E1F57E3D800982CD1 /* ViewController.m */; };
+		9460EA421F57E3D800982CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9460EA401F57E3D800982CD1 /* Main.storyboard */; };
+		9460EA441F57E3D800982CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9460EA431F57E3D800982CD1 /* Assets.xcassets */; };
+		9460EA471F57E3D800982CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9460EA451F57E3D800982CD1 /* LaunchScreen.storyboard */; };
+		9460EA521F57E3D800982CD1 /* LoveToothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9460EA511F57E3D800982CD1 /* LoveToothTests.m */; };
+		9460EA5D1F57E3D800982CD1 /* LoveToothUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9460EA5C1F57E3D800982CD1 /* LoveToothUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9460EA4E1F57E3D800982CD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9460EA2C1F57E3D800982CD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9460EA331F57E3D800982CD1;
+			remoteInfo = LoveTooth;
+		};
+		9460EA591F57E3D800982CD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9460EA2C1F57E3D800982CD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9460EA331F57E3D800982CD1;
+			remoteInfo = LoveTooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9460EA341F57E3D800982CD1 /* LoveTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9460EA381F57E3D800982CD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9460EA3A1F57E3D800982CD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9460EA3B1F57E3D800982CD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9460EA3D1F57E3D800982CD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9460EA3E1F57E3D800982CD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9460EA411F57E3D800982CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9460EA431F57E3D800982CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9460EA461F57E3D800982CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9460EA481F57E3D800982CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9460EA4D1F57E3D800982CD1 /* LoveToothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveToothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9460EA511F57E3D800982CD1 /* LoveToothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveToothTests.m; sourceTree = "<group>"; };
+		9460EA531F57E3D800982CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9460EA581F57E3D800982CD1 /* LoveToothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveToothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9460EA5C1F57E3D800982CD1 /* LoveToothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoveToothUITests.m; sourceTree = "<group>"; };
+		9460EA5E1F57E3D800982CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9460EA311F57E3D800982CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9460EA4A1F57E3D800982CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9460EA551F57E3D800982CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9460EA2B1F57E3D800982CD1 = {
+			isa = PBXGroup;
+			children = (
+				9460EA361F57E3D800982CD1 /* LoveTooth */,
+				9460EA501F57E3D800982CD1 /* LoveToothTests */,
+				9460EA5B1F57E3D800982CD1 /* LoveToothUITests */,
+				9460EA351F57E3D800982CD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9460EA351F57E3D800982CD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9460EA341F57E3D800982CD1 /* LoveTooth.app */,
+				9460EA4D1F57E3D800982CD1 /* LoveToothTests.xctest */,
+				9460EA581F57E3D800982CD1 /* LoveToothUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9460EA361F57E3D800982CD1 /* LoveTooth */ = {
+			isa = PBXGroup;
+			children = (
+				9460EA3A1F57E3D800982CD1 /* AppDelegate.h */,
+				9460EA3B1F57E3D800982CD1 /* AppDelegate.m */,
+				9460EA3D1F57E3D800982CD1 /* ViewController.h */,
+				9460EA3E1F57E3D800982CD1 /* ViewController.m */,
+				9460EA401F57E3D800982CD1 /* Main.storyboard */,
+				9460EA431F57E3D800982CD1 /* Assets.xcassets */,
+				9460EA451F57E3D800982CD1 /* LaunchScreen.storyboard */,
+				9460EA481F57E3D800982CD1 /* Info.plist */,
+				9460EA371F57E3D800982CD1 /* Supporting Files */,
+			);
+			path = LoveTooth;
+			sourceTree = "<group>";
+		};
+		9460EA371F57E3D800982CD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9460EA381F57E3D800982CD1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9460EA501F57E3D800982CD1 /* LoveToothTests */ = {
+			isa = PBXGroup;
+			children = (
+				9460EA511F57E3D800982CD1 /* LoveToothTests.m */,
+				9460EA531F57E3D800982CD1 /* Info.plist */,
+			);
+			path = LoveToothTests;
+			sourceTree = "<group>";
+		};
+		9460EA5B1F57E3D800982CD1 /* LoveToothUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9460EA5C1F57E3D800982CD1 /* LoveToothUITests.m */,
+				9460EA5E1F57E3D800982CD1 /* Info.plist */,
+			);
+			path = LoveToothUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9460EA331F57E3D800982CD1 /* LoveTooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9460EA611F57E3D800982CD1 /* Build configuration list for PBXNativeTarget "LoveTooth" */;
+			buildPhases = (
+				9460EA301F57E3D800982CD1 /* Sources */,
+				9460EA311F57E3D800982CD1 /* Frameworks */,
+				9460EA321F57E3D800982CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveTooth;
+			productName = LoveTooth;
+			productReference = 9460EA341F57E3D800982CD1 /* LoveTooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9460EA4C1F57E3D800982CD1 /* LoveToothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9460EA641F57E3D800982CD1 /* Build configuration list for PBXNativeTarget "LoveToothTests" */;
+			buildPhases = (
+				9460EA491F57E3D800982CD1 /* Sources */,
+				9460EA4A1F57E3D800982CD1 /* Frameworks */,
+				9460EA4B1F57E3D800982CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9460EA4F1F57E3D800982CD1 /* PBXTargetDependency */,
+			);
+			name = LoveToothTests;
+			productName = LoveToothTests;
+			productReference = 9460EA4D1F57E3D800982CD1 /* LoveToothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9460EA571F57E3D800982CD1 /* LoveToothUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9460EA671F57E3D800982CD1 /* Build configuration list for PBXNativeTarget "LoveToothUITests" */;
+			buildPhases = (
+				9460EA541F57E3D800982CD1 /* Sources */,
+				9460EA551F57E3D800982CD1 /* Frameworks */,
+				9460EA561F57E3D800982CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9460EA5A1F57E3D800982CD1 /* PBXTargetDependency */,
+			);
+			name = LoveToothUITests;
+			productName = LoveToothUITests;
+			productReference = 9460EA581F57E3D800982CD1 /* LoveToothUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9460EA2C1F57E3D800982CD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Ryan;
+				TargetAttributes = {
+					9460EA331F57E3D800982CD1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					9460EA4C1F57E3D800982CD1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9460EA331F57E3D800982CD1;
+					};
+					9460EA571F57E3D800982CD1 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9460EA331F57E3D800982CD1;
+					};
+				};
+			};
+			buildConfigurationList = 9460EA2F1F57E3D800982CD1 /* Build configuration list for PBXProject "LoveTooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9460EA2B1F57E3D800982CD1;
+			productRefGroup = 9460EA351F57E3D800982CD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9460EA331F57E3D800982CD1 /* LoveTooth */,
+				9460EA4C1F57E3D800982CD1 /* LoveToothTests */,
+				9460EA571F57E3D800982CD1 /* LoveToothUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9460EA321F57E3D800982CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9460EA471F57E3D800982CD1 /* LaunchScreen.storyboard in Resources */,
+				9460EA441F57E3D800982CD1 /* Assets.xcassets in Resources */,
+				9460EA421F57E3D800982CD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9460EA4B1F57E3D800982CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9460EA561F57E3D800982CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9460EA301F57E3D800982CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9460EA3F1F57E3D800982CD1 /* ViewController.m in Sources */,
+				9460EA3C1F57E3D800982CD1 /* AppDelegate.m in Sources */,
+				9460EA391F57E3D800982CD1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9460EA491F57E3D800982CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9460EA521F57E3D800982CD1 /* LoveToothTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9460EA541F57E3D800982CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9460EA5D1F57E3D800982CD1 /* LoveToothUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9460EA4F1F57E3D800982CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9460EA331F57E3D800982CD1 /* LoveTooth */;
+			targetProxy = 9460EA4E1F57E3D800982CD1 /* PBXContainerItemProxy */;
+		};
+		9460EA5A1F57E3D800982CD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9460EA331F57E3D800982CD1 /* LoveTooth */;
+			targetProxy = 9460EA591F57E3D800982CD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9460EA401F57E3D800982CD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9460EA411F57E3D800982CD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9460EA451F57E3D800982CD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9460EA461F57E3D800982CD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9460EA5F1F57E3D800982CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9460EA601F57E3D800982CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9460EA621F57E3D800982CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.LoveTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9460EA631F57E3D800982CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveTooth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.LoveTooth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9460EA651F57E3D800982CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveToothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.LoveToothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveTooth.app/LoveTooth";
+			};
+			name = Debug;
+		};
+		9460EA661F57E3D800982CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveToothTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.LoveToothTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveTooth.app/LoveTooth";
+			};
+			name = Release;
+		};
+		9460EA681F57E3D800982CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoveToothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.LoveToothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveTooth;
+			};
+			name = Debug;
+		};
+		9460EA691F57E3D800982CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LoveToothUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.myself.LoveToothUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveTooth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9460EA2F1F57E3D800982CD1 /* Build configuration list for PBXProject "LoveTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9460EA5F1F57E3D800982CD1 /* Debug */,
+				9460EA601F57E3D800982CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9460EA611F57E3D800982CD1 /* Build configuration list for PBXNativeTarget "LoveTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9460EA621F57E3D800982CD1 /* Debug */,
+				9460EA631F57E3D800982CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9460EA641F57E3D800982CD1 /* Build configuration list for PBXNativeTarget "LoveToothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9460EA651F57E3D800982CD1 /* Debug */,
+				9460EA661F57E3D800982CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9460EA671F57E3D800982CD1 /* Build configuration list for PBXNativeTarget "LoveToothUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9460EA681F57E3D800982CD1 /* Debug */,
+				9460EA691F57E3D800982CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9460EA2C1F57E3D800982CD1 /* Project object */;
+}
